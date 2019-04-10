@@ -13,6 +13,7 @@ namespace BigSchool2.Models
         [Required]
         public string LecturerId { get; set; }
         [Required]
+        //commit
         [StringLength(255)]
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
